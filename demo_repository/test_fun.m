@@ -4,6 +4,7 @@ function [] = test_fun()
 
 load handel.mat;
 soundsc(y, 2*Fs);
+disp('done')
 
 end
 
